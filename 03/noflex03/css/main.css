@@ -51,6 +51,7 @@ h4 {
 
 header {
     height: 96px;
+    display: inline-block;
 /*     display: flex;
     align-items: center;
     justify-content: space-between; */
@@ -59,7 +60,8 @@ header {
 header nav {
     width: 715px;
     display: inline-block;
-    margin-left: 610px;
+    margin: 16px 0 0 610px;
+    vertical-align: top;
 }
 
 header .logo {
@@ -256,12 +258,13 @@ h1 {
     display: inline-block;
 /*     width: 18px;
     height: 57px; */
-    margin: 0 auto;
-    margin-left: 8px;
+    margin: 13px 8px 0 0;
+    vertical-align: top;
 }
 
 .selector__item_active {
     height: 57px;
+    padding-top: 10px;
 }
 
 .selector__item_active span {
@@ -338,6 +341,9 @@ h1 {
 .who__text {
     display: inline-block;
     width: 470px;
+    vertical-align: top;
+    margin: 15px;
+    padding-top: 5px;
 /*     margin-left: 34px; */
 }
 
@@ -391,6 +397,10 @@ h1 {
     flex-wrap: nowrap; */
     width: 611px;
     display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-right: 30px;
+
 }
 
 .demo__item {
@@ -399,9 +409,10 @@ h1 {
 }
 
 .demo__wrapper {
-    display: flex;
+/*     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    display: inline-block;
     margin-top: 44px;
 }
 
@@ -421,30 +432,43 @@ h1 {
 }
 
 .opinions__item {
+    display: block;
     margin: 42px auto 0 auto;
     width: 702px;
     background: white;
-    display: flex;
+ /*    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
+    gap: 12px; */
     padding: 60px 16px;
     border-radius: 12px;
 }
 
+/* Не получается поставить это на место инлайнами */
+
+.opinions__ico {
+    display: inline-block;
+}
+
+.opinions__txt  {
+    display: inline;
+}
+
 .opinions__review {
-    display: flex;
-    justify-content: flex-start;
+    display: inline-block
+/*     justify-content: flex-start;
     align-items: flex-start;
-    gap: 7px;
+    gap: 7px; */
 }
 
 .stars {
     width: 158px;
     height: 26px;
-    display: flex;
+    display: inline-block;
+    vertical-align: top;
+/*     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .opinions__names h4 {
@@ -453,19 +477,26 @@ h1 {
 
 .opinions__txt p {
     color: #575757;
+    margin-left: 50px;
 }
 
 .start {
     padding: 90px 100px;
 }
 
+.start .container {
+    width: 950px;
+}
+
 .start__item {
-    display: flex;
+/*     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 15px; */
+    display: block;
     margin: 74px auto 0 auto;
 }
+
 
 .start__item p {
     margin: 0;
@@ -474,9 +505,12 @@ h1 {
 
 .start__txt {
     width: 611px;
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 16px; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 73px;
 }
 
 .start__name {
@@ -485,13 +519,25 @@ h1 {
 }
 
 .start__review {
-    display: flex;
+    display: inline-block;
+/*     display: flex;
     gap: 17px;
-    align-items: center;
+    align-items: center; */
+}
+
+.start__name {
+    margin-top: 16px;
+    color: #0062FF;
+}
+
+.start__item p {
+    margin-top: 16px;
 }
 
 .start__button {
+    display: block;
     width: 122px;
+    margin-top: 16px;
 }
 
 .discount__title {
@@ -501,9 +547,9 @@ h1 {
 
 .discount__form {
     width: 508px;
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15px; */
     margin: 28px auto 0 auto;
 }
 
@@ -522,5 +568,7 @@ h1 {
 }
 
 .discount__button {
+    display: block;
+    margin-top: 14px;
     text-align: center;
 }
