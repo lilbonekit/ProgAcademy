@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1700px;
+    height: 1700px;
+    margin: 0 auto;
+    position: relative;
+    background: gray;
+    border-radius: 30px;
+}
+
+.square {
+    display: block;
+    width: 512px;
+    height: 512px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.diya {
+    background: #000;
+}
+
+.diya p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 180px;
+    text-align: center;
+    line-height: 1em;
+    margin: 128px 0 0 0;
+}
+
+.diya__flag {
+    width: 80px;
+    height: 60px;
+    border-radius: 6px;
+    background: #FFD84B;
+    overflow: hidden;
+    margin: 32px auto 0 auto;
+}
+
+.diya__flag-top {
+    width: 80px;
+    height: 50%;
+    background: #2137FC;
+}
+
+.flag {
+    background: #FFCE22;
+    position: relative;
+    left: 441px;
+    top: 395px;
+    z-index: 5;
+}
+
+.flag-blue {
+/*     background: #2137FC; */
+    height: 272px;
+    background: url(../img/halfblue.svg) center center/cover no-repeat;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.shape {
+    position: absolute;
+    left: 50%;
+    top: 50.5%;
+    transform: translate(-50%, -50%);
+    rotate: -0.2deg;
+    z-index: 5;
+}
+
+.emblem {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #2137FC;
+    padding: 34px;
+    background: white;
+    top: 812px;
+    left: 864px;
+}
+
+.emblem__round {
+    width: 444px;
+    height: 444px;
+    background: #FFCE22;
+    border-radius: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.emblem__round-top {
+    background: url(../img/halfblue2.svg) center center/cover no-repeat;
+    width: 444px;
+    height: 50%;
+}
+
+.shape2 {
+    top: 210px;
+    transform: translateX(-50%);
+    width: 350px;
+}
