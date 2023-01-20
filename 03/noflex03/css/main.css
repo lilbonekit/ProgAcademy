@@ -50,8 +50,9 @@ h4 {
 }
 
 header {
+    width: 1512px;
     height: 96px;
-    display: inline-block;
+    margin: 0 auto;
 /*     display: flex;
     align-items: center;
     justify-content: space-between; */
@@ -60,7 +61,7 @@ header {
 header nav {
     width: 715px;
     display: inline-block;
-    margin: 16px 0 0 610px;
+    margin: 16px 0 0 590px;
     vertical-align: top;
 }
 
