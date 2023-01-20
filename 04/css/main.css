@@ -1,0 +1,597 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    line-height: 1.2em;
+    font-size: 16px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row {
+    margin-top: 46px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 27px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subtitle {
+    width: 611px;
+    margin: 12px auto 0 auto;
+    text-align: center;
+    color: #575757;
+}
+
+.button {
+    min-width: 94px;
+    height: 39px;
+    background-color: #0062FF;
+    color: white;
+    font-size: 16px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+header {
+    width: 1512px;
+    height: 96px;
+    margin: 0 auto;
+/*     display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+header nav {
+    width: 715px;
+    display: inline-block;
+    margin-top: 16px;
+    vertical-align: top;
+}
+
+header .logo {
+    margin: 16px 0 12px 12px;
+    display: inline-block;
+}
+
+/* .nav__wrapper {
+    display: inline-block;
+} */
+
+.header__nav {
+    list-style-type: none;
+    display: inline-block;
+/*     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px; */
+}
+
+.header__nav li {
+    display: inline;
+    margin-right: 24px;
+}
+
+.header__nav li a {
+    display: inline;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.header__nav li:last-child a {
+    width: 128px;
+    height: 45px;
+    border: 1px solid #2203E4;
+    color: #2203E4;
+    padding: 10px 16px;
+/*     display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.header__nav a {
+    text-decoration: none;
+}
+
+.hero {
+    padding: 104px 0 119px;
+    position: relative;
+    min-height: 700px;
+}
+
+.hero__wrapper {
+    width: 611px;
+    margin-top: 162px;
+}
+
+h1 {
+    font-size: 47px;
+    text-align: left;
+}
+
+.hero__desc {
+    text-align: left;
+    font-size: 16px;
+}
+
+.hero__buttons {
+/*     display: flex;
+    gap: 24px; */
+    margin-top: 24px;
+}
+
+.hero__button {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 94px;
+    height: 39px;
+    background-color: #0062FF;
+    color: white;
+    font-size: 16px;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.hero__button_stroke {
+    color: #575757;
+    background-color: white;
+    border: 1px solid #575757;
+}
+
+/* Оставил позиционирование, потому что в макете изображение выходит за контейнер */
+
+.hero__img {
+    display: inline-block;
+    position: absolute;
+    top: 118px;
+    right: 178px;
+}
+
+.authors {
+    padding: 50px 0 143px 0;
+    min-height: 550px;
+}
+
+.authors .container {
+    width: 1190px;
+}
+
+.authors__title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.authors__subtitle {
+    width: 611px;
+    margin: 12px auto 0 auto;
+    text-align: center;
+    color: #575757;
+}
+
+.authors__item {
+/*     gap: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    width: 841px;
+    display: inline-block;
+}
+
+.comment__ico img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.comment__name {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.comment__sub {
+    font-size: 21px;
+    margin: 0;
+    color: #575757;
+}
+
+.comment__wrapper {
+    width: 652px;
+    display: inline-block;
+    margin-left: 34px;
+}
+
+.comment__comment {
+/*     margin: 15px 0 24px 0; */
+    color: #575757;
+    font-size: 16px;
+}
+
+.comment__socials {
+    width: 95px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selector {
+    display: inline-block;
+    width: 237px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 8px; */
+}
+
+.selector__item {
+/*     display: flex;
+    align-items: center;
+    gap: 8px; */
+    cursor: pointer;
+    display: inline-block;
+    width: 237px;
+    height: 44px;
+    margin-top: 10px;
+}
+
+.selector__txt {
+    display: inline-block ;
+}
+
+.selector__item span {
+    opacity: 0;
+    display: inline-block;
+/*     width: 18px;
+    height: 57px; */
+    margin: 13px 8px 0 0;
+    vertical-align: top;
+}
+
+.selector__item_active {
+    height: 57px;
+    padding-top: 10px;
+}
+
+.selector__item_active span {
+    opacity: 1;
+} 
+
+.selector__item h4 {
+    margin: 0;
+    color: #DEA405;
+    font-size: 21px;
+}
+
+.selector__item p {
+    margin: 0;
+    color: #FFBE0B;
+}
+
+.selector__item_active h4 {
+    margin: 0;
+    color: #000000;
+    font-size: 21px;
+}
+
+.selector__item_active p {
+    margin: 0;
+    color: #575757;
+}
+
+.authors__wrapper {
+/*     display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top: 60px;
+}
+
+.who {
+    min-height: 702px;
+    background: #0062FF;
+    padding: 71px 0;
+}
+
+.who .container {
+    width: 1305px;
+}
+
+.who__title {
+    text-align: center;
+    color: white;
+}
+
+.who__subtitle {
+    color: white;
+}
+
+.who__item {
+    width: 610px;
+    display: inline-block;
+    margin-top: 46px;
+/*     display: flex;
+    gap: 34px;
+    align-items: center;
+    margin-top: 46px; */
+}
+
+/* .who__item:first-child, .who__item:nth-child(2n) {
+    margin-top: 0;
+}
+
+.who__item:nth-child(2n) {
+    margin-right: 0;
+} */
+
+.who__text {
+    display: inline-block;
+    width: 440px;
+    vertical-align: top;
+    margin: 15px;
+    padding-top: 5px;
+/*     margin-left: 34px; */
+}
+
+.who__item span {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+}
+
+.who__item h3 {
+    color: white;
+}
+
+.who__item p {
+    color: white;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.who__wrapper {
+/*     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    margin-top: 64px;
+}
+
+.who__button {
+    display: inline-block;
+    margin: 64px 581px 0 581px;
+    width: 99px;
+    text-decoration: none;
+    color:#2203E4;
+    background: white;
+    border: 1px solid #2203E4;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.demo {
+    min-height: 626px;
+    padding: 63px 0 130px 0;
+}
+
+.demo__subtitle {
+    color: #575757;
+}
+
+.demo__items {
+/*     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+    width: 611px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-right: 30px;
+
+}
+
+.demo__item {
+    width: 611px;
+    text-align: center;
+}
+
+.demo__wrapper {
+/*     display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: inline-block;
+    margin: 44px auto 0 auto;
+}
+
+.demo__item p {
+    margin-top: 12px;
+    color: #575757;
+}
+
+.demo__player {
+    width: 100%;
+}
+
+.opinions {
+    min-height: 500px;
+    padding: 67px 0;
+    background: #FFBE0B;
+}
+
+.opinions__item {
+    display: block;
+    margin: 42px auto 0 auto;
+    width: 702px;
+    background: white;
+ /*    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px; */
+    padding: 60px 16px;
+    border-radius: 12px;
+}
+
+/* Не получается поставить это на место инлайнами */
+
+.opinions__ico {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.opinions__txt  {
+    display: inline-block;
+    width: 605px;
+}
+
+.opinions__review {
+    display: inline-block
+/*     justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7px; */
+}
+
+.stars {
+    width: 158px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: top;
+/*     display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.opinions__names h4 {
+    margin-top: 10px;
+}
+
+.opinions__txt p {
+    color: #575757;
+}
+
+.start {
+    padding: 90px 100px;
+}
+
+.start .container {
+    width: 950px;
+}
+
+.start__item {
+/*     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; */
+    display: block;
+    margin: 74px auto 0 auto;
+}
+
+
+.start__item p {
+    margin: 0;
+    color: #575757;
+}
+
+.start__txt {
+    width: 611px;
+/*     display: flex;
+    flex-direction: column;
+    gap: 16px; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 73px;
+}
+
+.start__name {
+    text-align: left;
+    margin: 0;
+}
+
+.start__review {
+    display: inline-block;
+/*     display: flex;
+    gap: 17px;
+    align-items: center; */
+}
+
+.start__name {
+    margin-top: 16px;
+    color: #0062FF;
+}
+
+.start__item p {
+    margin-top: 16px;
+}
+
+.start__button {
+    display: block;
+    width: 122px;
+    margin-top: 16px;
+}
+
+.discount__title {
+    display: inline-block;
+    margin-top: 147px;
+}
+
+.discount__form {
+    width: 508px;
+/*     display: flex;
+    flex-direction: column;
+    gap: 15px; */
+    margin: 28px auto 0 auto;
+}
+
+.discount__form input {
+    width: 508px;
+    height: 70px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(58, 134, 255, 0.2);
+    padding: 25px 0 26px 24px;
+    color: #2203E4;
+}
+
+.discount__form input::placeholder {
+    color: #2203E4;
+}
+
+.discount__button {
+    display: block;
+    margin-top: 14px;
+    text-align: center;
+}
