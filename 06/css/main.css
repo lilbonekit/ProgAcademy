@@ -78,6 +78,13 @@ h4::before {
 .container {
     width: 1462px;
     margin: 0 auto;
+    position: relative;
+    bottom: 300px;
+}
+
+.no-position-container {
+    width: 1462px;
+    margin: 0 auto;
 }
 
 body {
@@ -278,10 +285,6 @@ h1 span {
 
 .culture__txt {
     width: 632px;
-}
-
-footer {
-    padding-bottom: 120px;
 }
 
 footer p {
