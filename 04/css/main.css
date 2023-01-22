@@ -18,13 +18,13 @@ body {
 
 .clearfix {
     overflow: auto;
-  }
+}
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .row {
     margin-top: 46px;
@@ -75,7 +75,7 @@ header {
     width: 1512px;
     height: 96px;
     margin: 0 auto;
-/*     display: flex;
+    /*     display: flex;
     align-items: center;
     justify-content: space-between; */
 }
@@ -99,7 +99,7 @@ header .logo {
 .header__nav {
     list-style-type: none;
     display: inline-block;
-/*     display: flex;
+    /*     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px; */
@@ -123,7 +123,7 @@ header .logo {
     border: 1px solid #2203E4;
     color: #2203E4;
     padding: 10px 16px;
-/*     display: flex;
+    /*     display: flex;
     align-items: center;
     justify-content: center; */
 }
@@ -154,7 +154,7 @@ h1 {
 }
 
 .hero__buttons {
-/*     display: flex;
+    /*     display: flex;
     gap: 24px; */
     margin-top: 24px;
 }
@@ -208,7 +208,7 @@ h1 {
 }
 
 .authors__item {
-/*     gap: 46px;
+    /*     gap: 46px;
     display: flex;
     justify-content: flex-start;
     align-items: center; */
@@ -240,7 +240,7 @@ h1 {
 }
 
 .comment__comment {
-/*     margin: 15px 0 24px 0; */
+    /*     margin: 15px 0 24px 0; */
     color: #575757;
     font-size: 16px;
 }
@@ -262,7 +262,7 @@ h1 {
 }
 
 .selector__item {
-/*     display: flex;
+    /*     display: flex;
     align-items: center;
     gap: 8px; */
     cursor: pointer;
@@ -279,7 +279,7 @@ h1 {
 .selector__item span {
     opacity: 0;
     display: inline-block;
-/*     width: 18px;
+    /*     width: 18px;
     height: 57px; */
     margin: 13px 8px 0 0;
     vertical-align: top;
@@ -292,7 +292,7 @@ h1 {
 
 .selector__item_active span {
     opacity: 1;
-} 
+}
 
 .selector__item h4 {
     margin: 0;
@@ -317,7 +317,7 @@ h1 {
 }
 
 .authors__wrapper {
-/*     display: flex;
+    /*     display: flex;
     justify-content: space-between;
     align-items: center; */
     margin-top: 60px;
@@ -346,7 +346,7 @@ h1 {
     width: 610px;
     display: inline-block;
     margin-top: 46px;
-/*     display: flex;
+    /*     display: flex;
     gap: 34px;
     align-items: center;
     margin-top: 46px; */
@@ -366,7 +366,7 @@ h1 {
     vertical-align: top;
     margin: 15px;
     padding-top: 5px;
-/*     margin-left: 34px; */
+    /*     margin-left: 34px; */
 }
 
 .who__item span {
@@ -386,7 +386,7 @@ h1 {
 }
 
 .who__wrapper {
-/*     display: flex;
+    /*     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; */
     margin-top: 64px;
@@ -414,7 +414,7 @@ h1 {
 }
 
 .demo__items {
-/*     display: flex;
+    /*     display: flex;
     flex-direction: column;
     flex-wrap: nowrap; */
     width: 611px;
@@ -431,7 +431,7 @@ h1 {
 }
 
 .demo__wrapper {
-/*     display: flex;
+    /*     display: flex;
     justify-content: space-between;
     align-items: center; */
     display: inline-block;
@@ -458,7 +458,7 @@ h1 {
     margin: 42px auto 0 auto;
     width: 702px;
     background: white;
- /*    display: flex;
+    /*    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px; */
@@ -480,7 +480,7 @@ h1 {
 
 .opinions__review {
     display: inline-block
-/*     justify-content: flex-start;
+        /*     justify-content: flex-start;
     align-items: flex-start;
     gap: 7px; */
 }
@@ -490,7 +490,7 @@ h1 {
     height: 26px;
     display: inline-block;
     vertical-align: top;
-/*     display: flex;
+    /*     display: flex;
     justify-content: center;
     align-items: center; */
 }
@@ -512,7 +512,7 @@ h1 {
 }
 
 .start__item {
-/*     display: flex;
+    /*     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px; */
@@ -528,24 +528,39 @@ h1 {
 
 .start__txt {
     width: 611px;
-/*     display: flex;
+    /*     display: flex;
     flex-direction: column;
     gap: 16px; */
     display: inline-block;
     vertical-align: top;
     margin-top: 73px;
-}
 
-.start__name {
-    text-align: left;
-    margin: 0;
 }
 
 .start__review {
     display: inline-block;
-/*     display: flex;
-    gap: 17px;
-    align-items: center; */
+    width: 100%;
+}
+
+.start__review .start__name {
+    text-align: left;
+    width: fit-content;
+    margin: 0;
+    display: inline;
+}
+
+.start__review .star-wrapper {
+    display: inline;
+    float: right;
+}
+
+.start__review .star-wrapper p {
+    display: inline;
+    width: fit-content;
+}
+
+.start__review .star-wrapper .stars {
+    display: inline;
 }
 
 .start__name {
@@ -570,7 +585,7 @@ h1 {
 
 .discount__form {
     width: 508px;
-/*     display: flex;
+    /*     display: flex;
     flex-direction: column;
     gap: 15px; */
     margin: 28px auto 0 auto;
