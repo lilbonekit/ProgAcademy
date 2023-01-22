@@ -5,7 +5,7 @@
 }
 
 a:hover {
-/*     text-decoration: underline; */
+    /*     text-decoration: underline; */
     color: #FFC178;
 }
 
@@ -71,8 +71,9 @@ h4::before {
     display: flex;
     gap: 9px;
     text-decoration: none;
-    color:#FFC178;
+    color: #FFC178;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .container {
@@ -113,8 +114,8 @@ header {
 }
 
 .header__nav a:hover {
-    color:#FFC178;
-/*     text-decoration: underline; */
+    color: #FFC178;
+    /*     text-decoration: underline; */
 }
 
 .logo {
@@ -218,7 +219,7 @@ h1 span {
     width: 632px;
 }
 
-.holiday__wrapper .holiday__img{
+.holiday__wrapper .holiday__img {
     width: 598px;
 }
 
@@ -239,7 +240,9 @@ h1 span {
     transform: translateX(-50%);
 }
 
-.slider__txt p,.slider__txt h4,.slider__txt h2 {
+.slider__txt p,
+.slider__txt h4,
+.slider__txt h2 {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -310,7 +313,7 @@ footer p {
     text-decoration: none;
     width: 240px;
     height: 70px;
-    background-color:#FFA343;
+    background-color: #FFA343;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,7 +324,7 @@ footer p {
 
 .explore__button:hover {
     color: black;
-    background-color:#f8bc78;
+    background-color: #f8bc78;
 }
 
 footer .form__wrapper {
@@ -335,9 +338,9 @@ footer .form__wrapper {
     line-height: 49px;
 }
 
-.form__wrapper input{
+.form__wrapper input {
     background-color: transparent;
-    color:#979797;
+    color: #979797;
     font-size: 15px;
     padding: 25px 0;
     width: 331px;
@@ -356,7 +359,7 @@ form .form__button {
 }
 
 form .form__button:hover {
-    background-color:#f8bc78;
+    background-color: #f8bc78;
 }
 
 footer form {
@@ -379,7 +382,7 @@ footer form {
 
 .footer__list h5 {
     font-size: 20px;
-    color:#FFA343;
+    color: #FFA343;
     font-weight: 600;
 }
 
@@ -406,7 +409,7 @@ footer form {
 .divider {
     width: 100%;
     height: 2px;
-    background-color:#979797;
+    background-color: #979797;
 }
 
 .links__wrapper {
@@ -442,7 +445,7 @@ footer form {
 
 .copyright {
     text-align: center;
-    color:#979797;
+    color: #979797;
     font-size: 14px;
     margin-top: 150px;
 }
