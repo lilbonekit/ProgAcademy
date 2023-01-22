@@ -27,7 +27,9 @@ body {
   }
 
 .row {
+    display: inline-block;
     margin-top: 46px;
+    height: auto;
 }
 
 .container {
@@ -385,12 +387,12 @@ h1 {
     margin: 10px 0 0 0;
 }
 
-.who__wrapper {
-/*     display: flex;
+/* .who__wrapper {
+    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; */
-    margin-top: 64px;
-}
+    flex-wrap: wrap;
+    margin-top: 45px;
+} */
 
 .who__button {
     display: inline-block;
@@ -528,33 +530,39 @@ h1 {
 
 .start__txt {
     width: 611px;
-/*     display: flex;
+    /*     display: flex;
     flex-direction: column;
     gap: 16px; */
     display: inline-block;
     vertical-align: top;
     margin-top: 73px;
-}
 
-.start__name {
-    text-align: left;
-    margin: 0;
 }
 
 .start__review {
     display: inline-block;
-/*     display: flex;
-    gap: 17px;
-    align-items: center; */
+    width: 100%;
 }
 
-.start__name {
-    margin-top: 16px;
-    color: #0062FF;
+.start__review .start__name {
+    text-align: left;
+    width: fit-content;
+    margin: 0;
+    display: inline;
 }
 
-.start__item p {
-    margin-top: 16px;
+.start__review .star-wrapper {
+    display: inline;
+    float: right;
+}
+
+.start__review .star-wrapper p {
+    display: inline;
+    width: fit-content;
+}
+
+.start__review .star-wrapper .stars {
+    display: inline;
 }
 
 .start__button {
