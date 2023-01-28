@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 flex Sydorenko</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="header__logo"><img src="img/logo.png" alt="logo"></a>
+        <nav class="header__nav">
+            <a href="#" class="header__nav-list header__nav-list_active">ПРО НАС</a>
+            <a href="#" class="header__nav-list">ХЛІБОБУЛОЧНІ ВИРОБИ</a>
+            <a href="#" class="header__nav-list">КОНДИТЕРСЬКІ ВИРОБИ</a>
+            <a href="#" class="header__nav-list">НАПІВФАБРИКАТИ</a>
+            <a href="#" class="header__nav-list">ТОРТИ</a>
+        </nav>
+        <div class="header__cart">
+            <span class="header__cart__ico"><img src="img/icons/basket.png" alt="basket"></span>
+            <span class="header__cart__price">9 765 грн.</span>
+            <span class="header__cart__dd"><img src="img/icons/dd.svg" alt="drop down"></span>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__txt">
+                <h1>КОЗІЇВСЬКА ХЛІБОПЕКАРНЯ</h1>
+                <p>Cпробував наш хліб та кондитерські вироби, Ви зможете насолодитись смачною, натуральною та якісною їжою, яка необхідна нам кожен день.</p>
+                <a href="#" class="hero__btn btn">ПОСМОТРЕТЬ ТОВАРЫ</a>
+            </div>
+        </div>
+        <img src="img/hero/bread.png" alt="bread" class="hero__img">
+    </section>
+    <section class="why">
+        <div class="container">
+            <h2 class="why__title">Чому обирають нас</h2>
+            <img src="img/why/divider.svg" alt="divider" class="divider">
+            <div class="why__wrapper">
+                <div class="why__item">
+                    <img src="img/why/oven.png" alt="oven" class="why__item__ico">
+                    <p class="why__item__txt">Дотримання правил
+                        технологічних процесів</p>
+                </div>
+                <div class="why__item">
+                    <img src="img/why/electric-mixer.png" alt="electric-mixer" class="why__item__ico">
+                    <p class="why__item__txt">Працюють тільки досвідчені
+                        кваліфіковані фахівці</p>
+                </div>
+                <div class="why__item">
+                    <img src="img/why/roller.png" alt="roller" class="why__item__ico">
+                    <p class="why__item__txt">Не використовуємо
+                        розпущувачі тіста</p>
+                </div>
+                <div class="why__item">
+                    <img src="img/why/wheat-sack.png" alt="wheat-sack" class="why__item__ico">
+                    <p class="why__item__txt">Продукція готується
+                        з борошна власного виробництва</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog__title">КАТАЛОГ ПРОДУКЦІЇ</h2>
+            <div class="catalog__tabs">
+                <div class="catalog__item">Уся продукція</div>
+                <div class="catalog__item catalog__item_active">Хліб</div>
+                <div class="catalog__item">Булки</div>
+                <div class="catalog__item">Печиво</div>
+                <div class="catalog__item">Слойки</div>
+                <div class="catalog__item">Торти</div>
+            </div>
+            <div class="catalog__wrapper catalog__wrapper_active">
+                <div class="catalog__card">
+                    <h3>хліб білий</h3>
+                    <img class="catalog__card__ico" src="img/catalog/bread1.png" alt="bread">
+                    <p>вырабатывается из смеси муки ржаной обдирной и пшеничной первого сорта</p>
+                    <div class="catalog__card__footer">
+                        <a href="#" class="catalog__card__link"><img src="img/icons/arrow.svg" alt="More"></a>
+                        <a href="#" class="catalog__card__price">1000 гр.</a>
+                    </div>
+                </div>
+                <div class="catalog__card">
+                    <h3>Хліб Дарницький</h3>
+                    <img class="catalog__card__ico" src="img/catalog/bread2.png" alt="bread">
+                    <p>вырабатывается из смеси муки ржаной обдирной и пшеничной первого сорта</p>
+                    <div class="catalog__card__footer">
+                        <a href="#" class="catalog__card__link"><img src="img/icons/arrow.svg" alt="More"></a>
+                        <a href="#" class="catalog__card__price">1000 гр.</a>
+                    </div>
+                </div>
+                <div class="catalog__card">
+                    <h3>Хліб Подовий</h3>
+                    <img class="catalog__card__ico" src="img/catalog/bread3.png" alt="bread">
+                    <p>вырабатывается из смеси муки ржаной обдирной и пшеничной первого сорта</p>
+                    <div class="catalog__card__footer">
+                        <a href="#" class="catalog__card__link"><img src="img/icons/arrow.svg" alt="More"></a>
+                        <a href="#" class="catalog__card__price">1000 гр.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title">ПРО нас</h2>
+            <img src="img/why/divider.svg" alt="divider" class="divider">
+            <div class="about__txt">Хлібопекарський комплекс розташований в екологічно чистому районі, а саме на Краснокутщині. На протязі 20 років Козіївський хлібопекарський комплекс виробляє найсмачніші якісні хлібобулочні та кондитерські вироби. <br><br> Спробував наш хліб та кондитерські вироби, Ви зможете насолодитись смачною, натуральною та якісною їжою, яка необхідна нам кожен день.</div>
+            <div class="about__sub"><em>Від нашого села, з душею!</em></div>
+        </div>
+    </section>
+    <section class="production">
+        <div class="container">
+            <h2 class="production__title">НАША ПРОДУКЦІЯ</h2>
+            <div class="production__wrapper">
+                <div class="column">
+                    <img src="img/production/bar.png" alt="bar">
+                    <img src="img/production/black_bread.png" alt="bread1">
+                </div>
+                <div class="column">
+                    <img src="img/production/bread_topview.png" alt="bread2">
+                </div>
+                <div class="column">
+                    <img src="img/production/cake.png" alt="cock">
+                    <img src="img/production/croissants.png" alt="croissants">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#" class="footer__logo"><img src="img/logo.png" alt="logo"></a>
+        <address>
+            <h3>Ми знаходимось:</h3>
+            <a href="#" class="address__link">Харківська обл. Краснокутський район, с. Козіївка, вул. Спортивна2</a>
+        </address>
+        <div class="phones">
+            <a href="tel:+380988361107" class="phones__item">+38 (098) 83-61-107</a>
+            <a href="tel:+380990632645" class="phones__item">+38 (099) 06-32-645</a>
+        </div>
+    </footer>
+</body>
+</html>
