@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Yu Gothic', sans-serif;
+    font-display: swap;
+    src: url('../fonts/yugothib.ttf') format('ttf');
+}
+
+/* @font-face {
+    font-family: 'Shadows Into Light', cursive;
+    font-display: swap;
+    src: url('../fonts/shadowintolight.ttf') format('ttf');
+}
+ */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Shadows+Into+Light&display=swap'); */
+
+/* font-family: 'Noto Serif Georgian', serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Yu Gothic', sans-serif; */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_media.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">DesignCafé</a>
+        <nav class="nav__desktop">
+            <a href="#" class="nav__item">DesignCaféとは</a>
+            <a href="#" class="nav__item">メニュー</a>
+            <a href="#" class="nav__item">お問い合わせ</a>
+            <a href="#" class="nav__item">お知らせ</a>
+        </nav>
+        <nav class="nav__hamburger">
+            <img src="img/hero/charm_menu-hamburger.svg" alt="burher" onclick="togglePopUp()">
+            <div id="burgerPopUp" class="nav__popup"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Grand Open</h1>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="container">
+                <h2 class="menu__title after black">Menu</h2>
+                <div class="menu__wrapper">
+                    <div class="menu__item">
+                        <img src="img/menu/drink.png" alt="drink">
+                        <h3>Drink</h3>
+                    </div>
+                    <div class="menu__item">
+                        <img src="img/menu/drink-1.png" alt="cakes">
+                        <h3>Cakes</h3>
+                    </div>
+                    <div class="menu__item">
+                        <img src="img/menu/drink-2.png" alt="foods">
+                        <h3>Foods</h3>
+                    </div>
+                </div>
+                <a href="#" class="menu__button button">詳しく見る</a>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title after white">About</h2>
+                <div class="about__wrapper">
+                    DesignCaféは、色々なクリエイターが、
+                    交流する空間カフェです。
+                    仲間を探したり、仕事を依頼したり、
+                    新たな出会いを探してみませんか。
+                </div>
+                <a href="#" class="about__button button">もっと見る</a>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 class="news__title after black">News</h2>
+                <div class="news__wrapper">
+                    <div class="news__item">
+                        <div class="news__numbers">11/6（土）</div>
+                        <div class="news__txt">17時より世界中から集めたデザイン・映像作品の上映会を開催します。</div>
+                    </div>
+                    <div class="news__item">
+                        <div class="news__numbers">10/29（土）</div>
+                        <div class="news__txt">グランド・オープンいたしました。皆様のお越しを心よりお待ちしております。</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contacts">
+            <a href="#" class="contacts__item">東京都港区赤坂xx-xx</a>
+            <a href="tel:+0399999999" class="contacts__item">(03) 9999-9999</a>
+            <a href="mailto:contact@designcafe.com" class="contacts__item">contact@designcafe.com</a>
+        </div>
+        <div class="credits">(c) 2022 DesignCafé. All rights reserved.</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

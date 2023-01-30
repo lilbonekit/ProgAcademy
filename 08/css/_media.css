@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    header .nav__desktop {
+        display: none;
+    }
+    .nav__hamburger {
+        display: block;
+    }
+    .hero {
+        padding-left: 10px;
+        padding-right: 10px; 
+    }
+    .menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .news {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+     
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+    .hero {
+        height: 363px;
+    }
+    .about {
+        min-height: 364px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    footer .credits {
+       margin-top: 50px;
+       text-align: center;
+    } 
+}
