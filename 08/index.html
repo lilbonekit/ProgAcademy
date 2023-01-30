@@ -19,11 +19,19 @@
             <a href="#" class="nav__item">お知らせ</a>
         </nav>
         <nav class="nav__hamburger">
-            <img src="img/hero/charm_menu-hamburger.svg" alt="burher" onclick="togglePopUp()">
-            <div id="burgerPopUp" class="nav__popup"></div>
+            <img id="hamburger__btn" src="img/hero/charm_menu-hamburger.svg" alt="burher" onclick="togglePopUp()">
+            <div id="burgerPopUp" class="nav__popup">
+                <nav class="popup__items">
+                    <a href="#" class="nav__item">DesignCaféとは</a>
+                    <a href="#" class="nav__item">メニュー</a>
+                    <a href="#" class="nav__item">お問い合わせ</a>
+                    <a href="#" class="nav__item">お知らせ</a>
+                </nav>
+            </div>
         </nav>
     </header>
     <main>
+        <div id="overlayPopUp" class="overlay"></div>
         <section class="hero">
             <div class="container">
                 <h1>Grand Open</h1>

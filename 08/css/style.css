@@ -62,15 +62,47 @@ header .nav__desktop a {
     align-items: center;
 }
 
-.nav__popup {
+.overlay {
     display: none;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100vh;
+    background-color: greenyellow;
+    background: url('../img/hero/modal_bg.jpg') center 0%/cover no-repeat;
+}
+
+.nav__popup {
+    width: 300px;
     background: white;
     position: absolute;
     right: -600px;
     transition: 0.3s;
+
     /* right: -600px; */
+}
+
+.popup__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.nav__popup .nav__item {
+    font-family: 'Yu Gothic';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #668E68;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav__popup .nav__item:hover {
+    background-color: #2d382d;
+    color: white;
 }
 
 
@@ -79,15 +111,15 @@ h1 {
     margin: auto;
     font-family: 'Shadows Into Light' !important;
     font-weight: 400;
-    font-size: 110px;
-    line-height: 177px;
+    font-size: 6.875rem ;
+    line-height: 11.063rem;
     text-align: center;
     color: white;
 }
 
 h2 {
     font-family: 'Shadows Into Light';
-    font-size: 40px;
+    font-size: 2.5rem;
 /*     line-height: 1.4em; */
     text-align: center;
     font-weight: 400;
@@ -105,7 +137,7 @@ h2 {
     display: block;
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Yu Gothic', serif;
 }
 
@@ -130,7 +162,7 @@ h2 {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 30px;
 }
 
@@ -157,7 +189,7 @@ h2 {
     border-radius: 20px;
     padding: 7px 30px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .button::after {
@@ -186,7 +218,7 @@ h2 {
     font-family: 'Yu Gothic';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 26px;
     color: #FFFFFF;
 }
@@ -226,8 +258,8 @@ footer {
     padding: 20px 50px 80px 50px;
     font-family: 'Yu Gothic';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.563rem;
 }
 
 footer .contacts{
@@ -245,7 +277,7 @@ footer .contacts{
 footer .credits {
     font-family: 'Georgia';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 18px;
     text-align: right;
     color: #FFFFFF;
