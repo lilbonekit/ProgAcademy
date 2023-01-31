@@ -71,9 +71,10 @@ header .nav__desktop a {
 }
 
 .nav__popup {
+    display: none;
     width: 300px;
     background: white;
-    position: absolute;
+    position: fixed;
     right: -600px;
     transition: 0.3s;
 
@@ -85,7 +86,6 @@ header .nav__desktop a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
     text-align: center;
 }
 
