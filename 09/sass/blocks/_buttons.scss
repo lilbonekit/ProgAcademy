@@ -1,0 +1,22 @@
+.link {
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    color: $black-color;
+    width: 100%;
+    font-size: 24px;
+    &:after {
+        @include afterDivider;
+        width: 100%;
+        background: $yellow-color;
+    }
+    &:hover {
+        @include afterDividerHover;
+        &:after {
+            background: $main-color;
+        }
+    }
+}
+
+/* Не забыть указать фикс ширину*/

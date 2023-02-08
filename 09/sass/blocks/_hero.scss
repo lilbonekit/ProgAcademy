@@ -1,0 +1,24 @@
+.hero {
+    min-height: 1080px;
+    padding: 120px 0;
+    background: url('../img/hero/background.png') center center/cover no-repeat;
+    position: relative;
+    top: 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 437px auto;
+        grid-auto-rows: auto;
+        column-gap: 182px;
+        padding-top: 280px;
+    }
+    &__text {
+        color: $white-color;
+        font-size: 34px;
+    }
+    &__author {
+        font-size: 34px;
+        color: $main-color;
+        text-align: right;
+        grid-column: 2 / 3;
+    }
+}

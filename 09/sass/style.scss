@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.auto {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 140px;
+}
+
+@import '../css/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@import 'blocks/scrollbar';
+@import 'base/mixin';
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/hero';
+@import 'blocks/story';
+@import 'blocks/collection';
+@import 'blocks/hour';
+@import 'blocks/purpose';
+@import 'blocks/awards';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/media';

@@ -1,0 +1,64 @@
+header {
+    width: 100%;
+    display: grid;
+/*     grid-template-columns: 152px 545px 127px; */
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+    align-content: space-between;
+    padding: 50px 30px;
+    transition: .3s all ease;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+
+.header {
+    &__logo {
+        text-decoration: none;
+        color: $white-color;
+        font-size: 40px;
+        transition: .3s all ease;
+        position: relative;
+        justify-self: baseline;
+        &:after {
+            @include afterDivider;
+        }
+        &:hover {
+            @include afterDividerHover;
+        }
+        span {
+            color: $main-color;
+        }
+    }
+    &__nav {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        &-item {
+            text-decoration: none;
+            color: $white-color;
+            transition: .3s all ease;
+            font-size: 24px;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__cta {
+        align-self: center;
+        justify-self: end;
+        text-decoration: none;
+        color: $main-color;
+        font-weight: 700;
+        font-size: 24px;
+        transition: .3s all ease;
+        position: relative;
+        &:after {
+            @include afterDivider
+        }
+        &:hover {
+            @include afterDividerHover
+        }
+    }
+}

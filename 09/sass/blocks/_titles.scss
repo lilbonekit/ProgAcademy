@@ -1,0 +1,24 @@
+h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: $white-color;
+    text-align: right;
+    span {
+        color: $main-color;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    span {
+        color: $main-color;
+    }
+}
+
+h3 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+

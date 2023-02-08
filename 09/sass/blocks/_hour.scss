@@ -1,0 +1,35 @@
+.hour {
+    background: url('../img/hour/background.png') center center/cover no-repeat;
+    padding: 120px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        column-gap: 320px;
+    }
+    &__img {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        margin-top: 70px;
+    }
+    &__desc {
+        display: grid;
+        grid-template-rows: 50px 100px 35px;
+        grid-auto-rows: auto;
+        gap: 20px;
+        grid-column: 2 / 3;
+        grid-row: 2;
+        margin-top: 90px;
+        max-width: 570px;
+        align-items: center;
+        p {
+            font-size: 18px;
+            line-height: 20px;
+
+        }
+    }
+    &__link {
+        width: 125px;
+        justify-self: end;
+    }
+}

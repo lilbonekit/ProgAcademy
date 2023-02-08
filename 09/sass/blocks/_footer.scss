@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 140px;
+    border-top: 1px solid $black-color;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    bottom: 0;
+    .footer {
+        &__policy {
+            display: flex;
+            gap: 15px;
+            font-weight: 700;
+            font-size: 18px;
+            a {
+                color: $black-color;
+            }
+        }
+        &__author {
+            font-weight: 700;
+            font-size: 18px;
+            a {
+                color: $black-color;
+            }
+        }
+    }
+}

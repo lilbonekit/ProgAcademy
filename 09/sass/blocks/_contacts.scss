@@ -1,0 +1,62 @@
+.contacts {
+    padding: 120px 0 187px 0;
+    background: url('../img/contacts/background.png') center center/cover no-repeat;
+    position: relative;
+    &__wrapper {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+        column-gap: 68px;
+        row-gap: 62px;
+    }
+    &__item {
+        ul {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            li {
+                list-style-type: none;
+                font-size: 18px;
+            }
+        }
+    }
+    &__form {
+        h3 {
+            margin-bottom: 30px;
+        }
+        display: grid;
+        grid-column: 3 / 5;
+        input {
+            &::placeholder {
+                color: $black-color;
+                font-size: 18px;
+            }
+            background: transparent;
+            padding: 10px 0;
+            border: none;
+            border-bottom: 1px solid $black-color;
+        }
+        &-submit {
+            border: none;
+            background: $main-color;
+            color: $black-color;
+            font-weight: 700;
+            font-size: 18px;
+            padding: 10px 30px;
+            border-radius: 5px;
+            width: 150px;
+            margin-top: 30px;
+            justify-self: end;
+            transition: .3s all ease;
+            &:hover {
+                background: $yellow-color;
+            }
+        }
+    }
+    .last-child {
+        grid-column: 2 / 3;
+        grid-row: 2;
+    }
+}
