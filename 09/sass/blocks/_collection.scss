@@ -11,17 +11,15 @@
     &__wrapper {
         margin-top: 70px;
         display: grid;
-        grid-template-columns: repeat(auto-fill, 360px);
-        grid-auto-flow: column;
+        grid-template-columns: repeat(4, auto);
+        grid-auto-flow: row;
         column-gap: 65px;
-        overflow: scroll;
-        overflow-y: hidden;
+/*         overflow: scroll;
+        overflow-y: hidden; */
         padding-bottom: 20px;
-        @include scrollBar;
+/*         @include scrollBar; */
     }
     &__item {
-        width: 360px;
-        height: 500px;
         position: relative;
         cursor: pointer;
         filter: brightness(0.8);
