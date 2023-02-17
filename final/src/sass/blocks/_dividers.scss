@@ -1,0 +1,16 @@
+.divider {
+    width: 2px;
+    height: 60px;
+    background: $lightGray-color;
+}
+
+.divider__title {
+    &::after {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: calc(100% - 24px);
+        background: $gray-color;
+        height: 1px;
+    }
+}

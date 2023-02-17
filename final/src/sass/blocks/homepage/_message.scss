@@ -1,0 +1,20 @@
+.message {
+    padding: 80px 0;
+    &__wrapper {
+        background: $fondini-color;
+        padding: 60px 100px 80px 80px;
+    }
+    &__sub {
+        margin-top: 25px;
+    }
+    &__txt {
+        max-width: 567px;
+    }
+    form {
+        .input {
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.button {
+    width: calc(100% - 15px);
+    margin: 0 auto;
+    border: 1.5px solid #3D3D3C;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    color: $text-color;
+    transition: .3s all ease;
+    &:hover {
+        color: $accent-color;
+        border: $accent-color 1.5px solid;
+    }
+}

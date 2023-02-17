@@ -1,0 +1,32 @@
+.mondi {
+    .divider__title {
+        &::after {
+            width: 100%;
+        }
+    }
+    padding: 80px 0 90px;
+    &__wrapper {
+        padding: 70px 0 110px 0;
+        background: $fondini-color;
+    }
+    &__item {
+        margin-top: 60px;
+        width: 193px;
+        height: 136px;
+        background: $white-color;
+        position: relative;
+        svg {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -40px;
+        }
+    }
+    &__desc {
+        text-align: center;
+        padding-top: 100px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

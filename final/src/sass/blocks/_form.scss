@@ -1,0 +1,72 @@
+form {
+    .form{
+        &__desc {
+            font-size: 12px;
+            margin: 15px 0 10px 0;
+        }
+        &__submit {
+            border: 1.5px solid $text-color;
+            border-radius: 4px;
+            padding: 10px 30px;
+            text-align: center;
+            background: transparent;
+            width: 190px;
+            margin: 15px 0 0 0;
+            &:hover {
+                width: 100%;
+                color: $text-color;
+            }
+        }
+        &__checkboxes {
+            display: flex;
+            gap: 15px;
+        }
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        input {
+            &:focus {
+                border: 2px solid $text-color;
+                outline: none;
+            }
+            border: 1px solid #3D3D3C;
+            border-radius: 4px;
+            background: transparent;
+            height: 40px;
+            padding: 10px;
+        }
+    }
+    .checkbox-input {
+        label {
+            font-size: 14px;
+        }
+        .checkbox {
+            position: relative;
+            &:checked {
+                &::after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 50%;
+                    height: 50%;
+                    background: $text-color;
+                    border-radius: 100%
+                }
+            }
+            width: 1.125em;
+            height: 1.125em;
+            background-color: transparent;
+            border-radius: 100%;
+            vertical-align: middle;
+            border: 1px solid $text-color;
+            appearance: none;
+            -webkit-appearance: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}

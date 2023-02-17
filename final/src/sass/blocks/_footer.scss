@@ -1,0 +1,109 @@
+footer {
+    background: $fondini-color;
+    padding: 30px 0 0 0;
+    .footer {
+        &__title {
+            font-family: 'Poppins';
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.3em;
+            padding-right: 60px;
+        }
+        &__sub {
+            font-size: 14px;
+            font-family: 'Noto Serif';
+            line-height: 1.4em;
+            padding-right: 30px;
+            margin-top: 15px;
+        }
+        &__socials {
+            display: flex;
+            gap: 15px;
+            justify-content: end;
+            margin-bottom: 15px;
+            &-item {
+                text-decoration: none;
+            }
+        }
+        &__nav {
+            margin-top: 30px;
+            &-title {
+                font-size: 20px;
+            }
+            nav {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            &-item {
+                text-decoration: none;
+                color: $text-color;
+                font-size: 14px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .logo {
+        display: block;
+        margin-top: 20px;
+    }
+    a {
+        transition: .3s all ease;
+        svg {
+            path {
+                transition: .3s all ease;
+            }
+        }
+        &:hover {
+            svg {
+                path {
+                    fill: $accent-color;
+                }
+            }
+        }
+    }
+    .empty {
+        padding: 60px 0 50px 0;
+    }
+    .divider__title {
+        &::after {
+            width: 100%;
+        }
+    }
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .submit__wrapper {
+            margin-left: 100px;
+        }
+        .input {
+            &:nth-child(2) {
+                margin-top: 15px;
+            }
+        }
+    }
+    .row4 {
+        padding-bottom: 80px;
+    }
+    .white__footer {
+        background: $white-color;
+        padding: 25px 0 40px 0;
+        img {
+            margin: auto;
+        }
+        .row {
+            align-items: center;
+        }
+    }
+    .credits {
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        p {
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Abhaya Libre', serif;
+    line-height: 1.03em;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 1.14em;
+    font-family: 'Abhaya Libre', serif;
+    color: $text-color;
+    text-align: left;
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.3em;
+    color: $text-color;
+}
+
+.link {
+    text-align: right;
+    display: block;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: $text-color;
+    margin: 35px 0 0 auto;
+    transition: .3s all ease;
+    width: 155px;
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: $accent-color;
+}
+
+.author {
+    color: $text-color;
+    font-family: 'Noto Serif';
+    text-align: center;
+    margin-top: 40px;
+    span {
+        color: $accent-color;
+    }
+}

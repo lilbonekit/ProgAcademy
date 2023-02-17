@@ -1,0 +1,41 @@
+.sponsor {
+    padding: 55px 80px;
+    &__wrapper {
+        background: $fondini-color;
+        padding: 70px 0;
+    }
+    .divider__title {
+        &::after {
+            width: calc(82% - 8px);
+            margin: 0 auto;
+        }
+    }
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    h3 {
+        margin: 15px 0 5px 0;
+    }
+    .link {
+        margin-top: 20px;
+    }
+    &__item {
+        text-align: center;
+        width: 194px;
+        height: 194px;
+        background: $white-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        p {
+            color: $text-color;
+        }
+    }
+}
