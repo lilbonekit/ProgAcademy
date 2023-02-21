@@ -92,7 +92,9 @@ footer {
         background: $white-color;
         padding: 25px 0 40px 0;
         img {
-            margin: auto;
+            display: block;
+            margin: 15px auto;
+            width: auto;
         }
         .row {
             align-items: center;

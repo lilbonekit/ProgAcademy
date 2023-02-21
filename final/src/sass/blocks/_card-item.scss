@@ -8,6 +8,7 @@
     }
     img {
         border-radius: 4px;
+        object-fit: cover;
     }
 }
 
@@ -38,7 +39,6 @@
     }
     img {
         width: 50%;
-        height: 100%;
     }
     .author {
         font-size: 13px;
@@ -49,8 +49,9 @@
 
 .big-item {
     margin-top: 25px;
-    height: 647px;
+    height: auto;
     border-radius: 4px;
+    padding-bottom: 14px;
     img {
         width: 100%;
     }
@@ -86,6 +87,7 @@
         justify-content: space-between;
         margin-top: 20px;
         .author {
+            text-align: right;
             margin: 0;
             font-family: 'Poppins';
         }

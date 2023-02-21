@@ -1,0 +1,27 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Noto+Serif&family=Poppins:wght@400;500&display=swap');
+//font-family: 'Abhaya Libre', serif;
+//font-family: 'Noto Serif', serif;
+//font-family: 'Poppins', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@import 'base/variables';
+@import 'base/mixin';
+@import 'blocks/dividers';
+@import 'blocks/titles';
+@import 'blocks/button';
+@import 'blocks/card-item';
+@import 'blocks/form';
+@import 'blocks/header.scss';
+@import 'blocks/footer';
+@import 'blocks/breadcrumb';
+@import 'blocks/box-slider.scss';
+@import 'blocks/article/hero';
+@import 'blocks/article/comment';
+@import 'blocks/homepage/media';
+@import 'blocks/article/media';

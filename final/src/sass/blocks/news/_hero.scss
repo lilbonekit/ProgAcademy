@@ -1,0 +1,13 @@
+.hero {
+    background: $fondini-color;
+    &__wrapper {
+        padding: 40px 10px;
+        color: $text-color;
+        text-align: center;
+        background: $white-color;
+        p {
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+}

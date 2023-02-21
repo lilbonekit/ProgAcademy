@@ -1,0 +1,24 @@
+.catalog {
+    padding: 10px 0 40px 0;
+    background: $fondini-color;
+        &__date {
+            color: $gray-color;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+        &__item {
+            h3 {
+                margin-top: 15px;
+            }
+            .button {
+                margin-top: 25px;
+            }
+        }
+        &__author {
+            margin: 25px 0 0 0;
+            text-align: left;
+        }
+    &__title {
+        margin: 30px 0 0 0;
+    }
+}

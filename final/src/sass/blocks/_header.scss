@@ -1,10 +1,36 @@
 header {
     padding: 0 15px;
     background: $white-color;
+    transition: .3s all ease;
+    .hamburger {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        display: none;
+        transition: .3s all ease;
+        span {
+            transition: .3s all ease;
+            display: block;
+            height: 2px;;
+            width: 60%;
+            background: $text-color;
+            border-radius: 2px;
+        }
+        &:hover {
+            span {
+                background: $accent-color;
+            }
+        }
+    }
     .logo {
         padding: 15px 0;
         transition: .3s all ease;
         svg {
+            display: block;
             path {
                 transition: .3s all ease;
             }

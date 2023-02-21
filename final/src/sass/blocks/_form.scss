@@ -38,6 +38,9 @@ form {
         }
     }
     .checkbox-input {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
         label {
             font-size: 14px;
         }

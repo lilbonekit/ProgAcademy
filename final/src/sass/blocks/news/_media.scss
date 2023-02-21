@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    .hero {
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 575px) {
+    .hero {
+        min-height: unset;
+        &__wrapper {
+            padding: 20px 10px;
+        }
+    }
+    .news {
+        padding: 20px 0;
+    }
+}

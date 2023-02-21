@@ -1,0 +1,77 @@
+.comment {
+    &__title {
+        margin-top: 20px;
+    }
+    padding: 25px 0 40px 0;
+    color: $text-color;
+    &__date {
+        color: $gray-color;
+        text-align: right;
+    }
+    &__txt {
+        font-size: 14px;
+        margin-top: 50px;
+        color: $text-color;
+    }
+    &__sub {
+        font-style: italic;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__person {
+        font-size: 14px;
+        img {
+            width: 56px;
+            height: 56px;
+        }
+        display: flex;
+        flex-direction: column;
+        &-desc {
+            margin: 0;
+            a {
+                text-decoration: none;
+                color: $accent-color;
+            }
+           &:last-child {
+                display: flex;
+                flex-direction: row;
+                gap: 5px;
+           }
+        }
+    }
+    .box-slider {
+        &__title {
+            font-size: 16px;
+        }
+        &__name {
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        &__item {
+            width: auto;
+            height: auto;
+            .button {
+                width: 100%;
+                text-align: center;
+                margin-top: 5px;
+            }
+        }
+        &__wrapper {
+            align-items: center;
+            margin-top: 25px;
+        }
+    }
+    .divider__title {
+        &::after {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
+.catalog {
+    padding: 20px 0;
+    background: $fondini-color;
+}
